@@ -1,36 +1,67 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
+title: "Publications"
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+A complete, up-to-date list is available on [INSPIRE-HEP](https://inspirehep.net/authors/2031144?ui-citation-summary=true).
 
-{% include base_path %}
+---
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+## Preprints
 
+1. **Lecture Notes on Positivity Properties of Scattering Amplitudes**  
+   Prashanth Raman  
+   [arXiv:2603.28454](https://arxiv.org/abs/2603.28454)
 
+2. **Approximating Feynman Integrals Using Complete Monotonicity and Stieltjes Properties**  
+   Sara Ditsch, Johannes Henn, Prashanth Raman  
+   [arXiv:2512.18499](https://arxiv.org/abs/2512.18499)
 
+3. **Canonical Forms as Dual Volumes**  
+   Elia Mazzucchelli, Prashanth Raman  
+   [arXiv:2509.02239](https://arxiv.org/abs/2509.02239)
+
+---
+
+## Published
+
+4. **Mastering Cosmological Amplitudes Using Generalized Ramanujan's Theorem**  
+   Prashanth Raman, Qinglin Yang  
+   JHEP 04 (2026) 036 · [arXiv:2508.13126](https://arxiv.org/abs/2508.13126)
+
+5. **Positivity Properties of Scattering Amplitudes**  
+   Johannes Henn, Prashanth Raman  
+   JHEP 04 (2025) 150 · [doi:10.1007/JHEP04(2025)150](https://doi.org/10.1007/JHEP04(2025)150)
+
+6. **Celestial Insights into the S-matrix Bootstrap**  
+   Sudip Ghosh, Prashanth Raman, Aninda Sinha  
+   JHEP 08 (2022) 216 · [doi:10.1007/JHEP08(2022)216](https://doi.org/10.1007/JHEP08(2022)216)
+
+7. **Crossing Symmetric Spinning S-matrix Bootstrap: EFT Bounds**  
+   Subham Dutta Chowdhury, Kausik Ghosh, Parthiv Haldar, Prashanth Raman, Aninda Sinha  
+   SciPost Phys. 13 (2022) 051 · [doi:10.21468/SciPostPhys.13.3.051](https://doi.org/10.21468/SciPostPhys.13.3.051)
+
+8. **QFT, EFT and GFT**  
+   Prashanth Raman, Aninda Sinha  
+   JHEP 12 (2021) 203 · [doi:10.1007/JHEP12(2021)203](https://doi.org/10.1007/JHEP12(2021)203)
+
+9. **Stringy Canonical Forms and Binary Geometries from Associahedra, Cyclohedra and Generalized Permutohedra**  
+   Song He, Zhenjie Li, Prashanth Raman, Chi Zhang  
+   JHEP 10 (2020) 054 · [doi:10.1007/JHEP10(2020)054](https://doi.org/10.1007/JHEP10(2020)054)
+
+10. **The Positive Geometry for φᵖ Interactions**  
+    Prashanth Raman  
+    JHEP 10 (2019) 271 · [doi:10.1007/JHEP10(2019)271](https://doi.org/10.1007/JHEP10(2019)271)
+
+11. **Stokes Polytopes: The Positive Geometry for φ⁴ Interactions**  
+    Pinaki Banerjee, Alok Laddha, Prashanth Raman  
+    JHEP 08 (2019) 067 · [doi:10.1007/JHEP08(2019)067](https://doi.org/10.1007/JHEP08(2019)067)
+
+12. **Scalar Blocks as Gravitational Wilson Networks**  
+    Atanu Bhatta, Prashanth Raman, Nemani V. Suryanarayana  
+    JHEP 12 (2018) 125 · [doi:10.1007/JHEP12(2018)125](https://doi.org/10.1007/JHEP12(2018)125)
+
+13. **Holographic Conformal Partial Waves as Gravitational Open Wilson Networks**  
+    Atanu Bhatta, Prashanth Raman, Nemani V. Suryanarayana  
+    JHEP 06 (2016) 119 · [doi:10.1007/JHEP06(2016)119](https://doi.org/10.1007/JHEP06(2016)119)
